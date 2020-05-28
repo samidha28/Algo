@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 int Selection(int a[], int s);
 int Insertion(int a[],int s);
 int Bubble(int a[], int s);
