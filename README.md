@@ -1,1 +1,1 @@
-# github-management
+# HackerEarth
