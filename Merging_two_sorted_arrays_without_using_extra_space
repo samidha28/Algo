@@ -51,6 +51,5 @@ int main() {
         t--;
         cout<<"\n";
     }
-	//code
 	return 0;
 }
