@@ -1,0 +1,48 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+	int n,t;
+	cin>>n;
+	for(int i=0;i<n;i++){
+		cin>>t;
+		int b=2,c=3;
+		for(int a=1;a<=108;a=a+3){
+			string st;
+			int sn;
+			if(s==a){
+				if(b%2==0){
+					sn=s+11;
+					st="WS";
+				}
+				else{
+					sn=s+5;
+					st="AS";
+				}
+			}
+			else if(s==b){
+				if(b%2 ==0){
+					sn=s+9;
+					st="MS";
+				}
+				else{
+					sn=s+3;
+					st="MS";
+				}
+			}
+			else{
+				if(b%2==0){
+					sn=s+7;
+					st="AS";
+				}
+				else{
+					sn=s+1;
+					st="WS";
+				}
+			}
+			b=b+3;
+			c=c+3;
+		}
+	}
+	return 0;
+}

@@ -1,0 +1,36 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+bool comp(const pair<double, double>a,const pair<double ,double>b){
+    return ((double)((double)a.first/(double)a.second))>((double)((double)b.first/(double)b.second));
+}
+
+int main() {
+	//code
+	int t;
+	cin>>t;
+	while(t--){
+	    double n,w,v1,w1,value=0;
+	    cin>>n>>w;
+	    vector<pair<double, double>>v;
+	    while(n--){
+	        cin>>v1>>w1;
+	        v.push_back(make_pair(v1,w1));
+	    }
+	    sort(v.begin(),v.end(),comp);
+	    
+	    for(int i=0;i<v.size();i++){
+	        if(v[i].second<=w){
+	            value+=v[i].first;
+	            w-=v[i].second;
+	        }
+	        else {
+	            value+=(((double)((double)w/(double)v[i].second))*v[i].first);
+	            w=0;
+	        }
+	    }
+	    cout<<fixed<<setprecision(2)<<value<<endl;;
+	}
+	return 0;
+}
