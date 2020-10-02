@@ -10,3 +10,6 @@
     What is the maximum number of meetings that can be accommodated in the meeting room?
     https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0
       solved using greedy approach .
+# Minimum Platforms
+  Given arrival and departure times of all trains that reach a railway station. Your task is to find the minimum number of platforms required for the railway station so that no    train waits.Solved by greedy algorithm.
+  https://practice.geeksforgeeks.org/problems/minimum-platforms/0
