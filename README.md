@@ -15,3 +15,7 @@
   https://practice.geeksforgeeks.org/problems/minimum-platforms/0
 # GapAlgo (Merge Sorted arrays)
   Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
+  https://leetcode.com/problems/merge-sorted-array/
+# Set Matrix Zeroes (In place Algo)
+  Given an m x n matrix. If an element is 0, set its entire row and column to 0. Do it in-place.
+  https://leetcode.com/problems/set-matrix-zeroes/
