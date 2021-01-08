@@ -19,3 +19,6 @@
 # Set Matrix Zeroes (In place Algo)
   Given an m x n matrix. If an element is 0, set its entire row and column to 0. Do it in-place.
   https://leetcode.com/problems/set-matrix-zeroes/
+# Sorting algo (In-place)
+  Given a vector v with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and        blue. The user is supposed to enter 'R', 'W', 'B', in any order possible and the program will sort it in order 'R W B'.
+  https://leetcode.com/problems/sort-colors/
