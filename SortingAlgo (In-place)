@@ -1,0 +1,38 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<"enter color symbols (R,W,B): ";
+    char a;
+    vector<char>v;
+    for(int i=0;i<n;i++){
+       cin>>a;
+        v.push_back(a);
+    }
+    int L=0,M=0,H=n-1;
+    while(M<=H){
+        if(v[M]=='R'){
+            int temp=v[M];
+            v[M]=v[L];
+            v[L]= temp;
+            M++;
+            L++;
+        }
+          else if(v[M]=='B'){
+              int temp=v[M];
+            v[M]=v[H];
+            v[H]= temp;
+            H--;
+          } 
+          else{
+              M++;
+          }
+    }
+    for(int i=0;i<n;i++){
+       cout<<v[i]<<" ";
+    }
+    return 0;
+}
