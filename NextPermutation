@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    vector<int> v;
+    int n,a;
+    cin>>n;
+    for (int i=0;i<n;i++){
+        cin>>a;
+        v.push_back(a);
+    }
+    int s1=v.size()-1, s2= v.size()-2;
+    while(s2>=0){
+        if(v[s2+1]>v[s2])
+        break;
+        s2--;
+    }
+    if(s2<0)
+        sort(v.begin(),v.end());
+    else {
+        while(s1>s2){
+            if(v[s1]>v[s2])
+            break;
+            s1--;
+        }
+    }
+    swap(v[s1],v[s2]);
+    sort(v.begin()+s2+1, v.end());
+    
+    for(int i=0;i<v.size();i++){
+        cout<<v[i]<<" ";
+    }
+    return 0;
+}
