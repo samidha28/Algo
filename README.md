@@ -22,3 +22,12 @@
 # Sorting algo (In-place)
   Given a vector v with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and        blue. The user is supposed to enter 'R', 'W', 'B', in any order possible and the program will sort it in order 'R W B'.
   https://leetcode.com/problems/sort-colors/
+# Next Permutation (In-Place)
+  Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+  If such an arrangement is not possible, it must rearrange it as the lowest possible order (i.e., sorted in ascending order).
+  The replacement must be in place and use only constant extra memory.
+  https://leetcode.com/problems/next-permutation/
+# Moore Voting Algo (Majority element)
+  Given an array nums of size n, return the majority element.
+  The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+  https://leetcode.com/problems/majority-element/
