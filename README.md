@@ -31,3 +31,6 @@
   Given an array nums of size n, return the majority element.
   The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
   https://leetcode.com/problems/majority-element/
+ # Zeroes In a array
+ Given an array arr[] of N positive integers. Push all the zero’s of the given array to the right end of the array while maitaining the order of non-zero elements.
+ https://practice.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1#
