@@ -10,7 +10,7 @@ int check(vector<int>v, int n, int s){
     for(int i=0;i<=n;i++){
         t[i][0]=true;
     }
-    for(int i=0;i<=n;i++){
+    for(int i=1;i<=n;i++){
         t[0][i]=false;
     }
     
