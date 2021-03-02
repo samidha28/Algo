@@ -12,3 +12,18 @@
                       
 3. Memoization -
     Time complexity : As it checks the complete matrix of size sum*n, hence time complexity is O(sum*n) .                      
+
+#Equal Sum Partition
+1. Recursive approach -
+    Time complexity : O(2^n)
+    
+2. Dynamic Programming Approach - 
+     Time complexity : O(sum*n)
+     
+#Count number of subsets 
+1. Recursive approach -
+    Time complexity : O(2^n)
+    
+2. Dynamic Programming Approach - 
+     Time complexity : O(sum*n)
+     
