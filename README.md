@@ -7,7 +7,7 @@
     Time complexity : This problem is NP-Complete meaning there is no known polynomial time solution for this problem .
                       In worst case it will try all the subsets and time complexity is exponential.
                    
-2. DP Approach -
+2. Top Down Approach -
     Time complexity : Pseudo polynomial time meaning the running time is polynomial in numeric value of input but not necessarily in length of input.
                       
 3. Memoization -
