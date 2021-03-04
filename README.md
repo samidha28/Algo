@@ -26,4 +26,10 @@
     
 2. Dynamic Programming Approach - 
      Time complexity : O(sum*n)
-     
+
+#0-1 Knapsack Problem
+1. Recursive approach -
+    Time complexity : O(2^n)
+    
+2. Dynamic Programming Approach - 
+     Time complexity : O(n*C)
